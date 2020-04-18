@@ -63,9 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Parallaxing.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
@@ -130,6 +134,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -144,12 +151,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>H:/Code/Crustacean-Coup/Crustacean Coup/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>H:/Unity/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
